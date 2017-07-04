@@ -106,7 +106,7 @@ nav a {
   vertical-align: middle;
 }
 
-.search-container {
+.search-header {
   display: inline-block;
 }
 .search-box {
@@ -114,8 +114,24 @@ nav a {
   padding: 0 20px;
 }
 
-.search-box input[type=select] {
+.search-container {
+  display: block;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.search-box [type=submit] {
+
+}
+
+.search-box input[type=search] {
   height: 30px;
+  background-color: transparent;
+  border: 1px solid  rgba(255,255,255,0.2);
+  padding: 5px;
+  padding-left: 15px;
+  display: block;
+  width: 100%;
+  outline: 0;
 }
 .hero-container {
   background-image: url(images/city-scape.svg);
