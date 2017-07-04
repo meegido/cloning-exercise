@@ -4,7 +4,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-
 nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
@@ -39,4 +38,51 @@ nav a {
 
 .acronym {
   padding: 0 15px;
+}
+
+.header {
+  background-color: rgb(32, 101, 136);
+  padding-top: 14px;
+  color: white;
+}
+
+.logo {
+  float: left;
+  padding-left: 16px;
+}
+
+.logo img {
+  width: 125px;
+  height: 45px;
+}
+
+.user-info {
+  float: right;
+
+}
+
+.user-info {
+  padding-right: 30px;
+}
+
+.user-info li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.user-info a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-info img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.search {
+  display: inline-block;
+}
+.search-box-container {
+  display: inline-block;
 }
