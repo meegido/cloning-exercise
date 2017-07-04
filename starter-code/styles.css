@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
+
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
+  width: 100%;
+  line-height: 24px;
+  box-sizing: border-box;
+
 }
 
 nav {
@@ -16,6 +21,32 @@ nav a {
   text-decoration: none;
 }
 
+.col-1 {
+  width: 10%;
+}
+.col-2 {
+  width: 20%;
+}
+.col-3 {
+  width: 30%;
+}
+
+.col-5 {
+  width: 50%;
+}
+.col-6 {
+  width: 60%;
+}
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 80%;
+}
+.clear {
+  clearfix: both;
+}
 .top-links {
   display: inline-block;
   float: right;
@@ -48,24 +79,18 @@ nav a {
 }
 
 .logo {
-  float: left;
   padding-left: 16px;
+  display: inline-block;
 }
 
 .logo img {
-  width: 125px;
-  height: 45px;
+  width: 65%;
 }
 
 .user-info {
-  float: right;
-
+  display: inline-block;
+  text-align: right;
 }
-
-.user-info {
-  padding-right: 30px;
-}
-
 .user-info li {
   text-decoration: none;
   display: inline-block;
@@ -81,14 +106,17 @@ nav a {
   vertical-align: middle;
 }
 
-.search {
+.search-container {
   display: inline-block;
-  position: relative;
 }
-.search-box-container {
+.search-box {
   display: inline-block;
+  padding: 0 20px;
 }
 
+.search-box input[type=select] {
+  height: 30px;
+}
 .hero-container {
   background-image: url(images/city-scape.svg);
   background-size: cover;
