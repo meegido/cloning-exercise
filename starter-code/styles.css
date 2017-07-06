@@ -77,62 +77,55 @@ nav a {
   padding-top: 14px;
   color: white;
 }
-
-.logo {
-  padding-left: 16px;
-  display: inline-block;
-}
-
-.logo img {
-  width: 65%;
-}
-
-.user-info {
-  display: inline-block;
-  text-align: right;
-}
-.user-info li {
-  text-decoration: none;
-  display: inline-block;
-}
-
-.user-info a {
+.user-interaction {
+  background-color: rgb(32, 101, 136);
   color: white;
-  text-decoration: none;
+  padding-left: 24px;
+  padding-top: 12px;
+}
+.logo-container {
+  display: inline-block;
+  width: 10%;
 }
 
-.user-info img {
-  width: 40px;
+.logo-container img {
+  width: 100%;
+  display: inline-block;
   vertical-align: middle;
 }
 
-.search-header {
-  display: inline-block;
-}
-.search-box {
-  display: inline-block;
-  padding: 0 20px;
-}
-
 .search-container {
-  display: block;
-  background-color: rgba(0,0,0,0.1);
+  display: inline-block;
+  width: 70%;
 }
 
-.search-box [type=submit] {
-
+.search-container input[type="search"] {
+  width: 90%;
 }
 
-.search-box input[type=search] {
-  height: 30px;
-  background-color: transparent;
-  border: 1px solid  rgba(255,255,255,0.2);
-  padding: 5px;
-  padding-left: 15px;
-  display: block;
-  width: 100%;
-  outline: 0;
+.access-container {
+  display: inline-block;
 }
+
+.access-container img {
+  width: 30%;
+  vertical-align: middle;
+}
+
+.access-container li {
+  display: inline-block;
+}
+
+.access-container li a {
+  text-decoration: none;
+  color: white;
+}
+
+.access-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .hero-container {
   background-image: url(images/city-scape.svg);
   background-size: cover;
