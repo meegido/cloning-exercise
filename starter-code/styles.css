@@ -97,12 +97,30 @@ nav a {
 .search-container {
   display: inline-block;
   width: 70%;
+  background-color: rgba(0,0,0,0.1);
+  height: 44px;
+  vertical-align: middle;
 }
 
 .search-container input[type="search"] {
-  width: 90%;
+  width: 94%;
+  background-color: rgba(0,0,0,0.1);
+  height: 46px;
+  font-size: 17px;
+  vertical-align: text-bottom;
+  padding: 0 0 0 15px;
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
+.search-container button {
+    height: 44px;
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    width: 5%;
+    width: 47px;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 0;
+}
 .access-container {
   display: inline-block;
 }
