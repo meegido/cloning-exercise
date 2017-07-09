@@ -139,16 +139,31 @@ h1 {
   background-image: url(images/city-scape.svg);
   background-size: cover;
   background-color: transparent;
+  position: relative;
 }
 
 .hero-box {
   width: 45%;
   color: white;
-  padding: 9% 0 0 8%;
+  position: absolute;
+  top: 31%;
+  left: 9%;
 }
 
 .hero-box p {
   padding-top: 30px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.signup-button {
+  text-decoration: none;
+  color: white;
+  background-color: #f09233;
+  border-radius: 18px;
+  padding: 8px 22px;
   font-weight: 300;
+  margin-top: 24px;
+  display: inline-block;
   font-size: 18px;
 }
