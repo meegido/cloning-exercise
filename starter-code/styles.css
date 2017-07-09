@@ -18,8 +18,12 @@ h1 {
   float: left;
 }
 
-.col-3 {
+.col-2 {
   width: 20%;
+}
+
+.col-3 {
+  width: 33%;
 }
 
 .col-7 {
@@ -192,7 +196,7 @@ h1 {
 }
 
 .collaboration-text h2 {
-  font-size: 34px;
+  font-size: 36px;
   font-weight: 300;
   line-height: 48px;
 }
@@ -236,7 +240,6 @@ h1 {
   background-size: cover;
   position: relative;
   height: 425px;
-  width: 100%;
   padding: 12px;
 }
 
@@ -250,7 +253,7 @@ h1 {
 }
 
 .what-is-box h2 {
-  font-size: 34px;
+  font-size: 36px;
   font-weight: 300;
   margin-bottom: 38px;
 }
@@ -270,5 +273,92 @@ h1 {
   margin-top: 24px;
   display: inline-block;
   font-size: 18px;
+}
 
+.what-make {
+  height: 450px;
+}
+
+.what-make-header {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.what-make-box {
+  margin: 3% 4% 7% 4%;
+  text-align: center;
+}
+
+.what-make-header h1 {
+  font-size: 36px;
+  margin-bottom: 26px;
+  color: #373d48;
+  font-weight: 400;
+}
+
+.what-make-header p {
+  color: #6d7986;
+  font-weight: 300;
+}
+
+.make-find {
+  display: inline-block;
+}
+
+.make-find p {
+  color: #6d7986;
+  font-weight: 300;
+  padding-left: 15%;
+  padding-right: 16%;
+}
+
+.make-find a {
+  text-decoration: none;
+  color: #cb3837;
+}
+
+.make-find h3 {
+  font-size: 22px;
+  color: #373d48;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: 600;
+}
+
+.make-discover {
+  display: inline-block;
+}
+
+.make-discover p {
+  color: #6d7986;
+  font-weight: 300;
+  padding-left: 15%;
+  padding-right: 16%;
+}
+
+.make-discover h3 {
+  font-size: 22px;
+  color: #373d48;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: 600;
+}
+
+.make-build {
+  display: inline-block;
+}
+
+.make-build p {
+  color: #6d7986;
+  font-weight: 300;
+  padding-left: 15%;
+  padding-right: 16%;
+}
+
+.make-build h3 {
+  font-size: 22px;
+  color: #373d48;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: 600;
 }
