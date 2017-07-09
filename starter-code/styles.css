@@ -181,8 +181,7 @@ h1 {
   display: inline-block;
   width: 40%;
   float: left;
-
-  padding-left: 12%;
+  padding-left: 10%;
 }
 
 .collaboration-text {
@@ -218,6 +217,7 @@ h1 {
   padding: 8px 22px;
   margin-top: 24px;
   display: inline-block;
+  font-size: 18px;
 }
 
 .collaboration p {
@@ -229,5 +229,46 @@ h1 {
   color: white;
   text-decoration: none;
   font-weight: 400;
+}
+
+.what-is {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  position: relative;
+  height: 425px;
+  width: 100%;
+  padding: 12px;
+}
+
+.what-is-box {
+  width: 28%;
+  font-weight: 100;
+  color: white;
+  position: absolute;
+  left: 9%;
+  top: 25%;
+}
+
+.what-is-box h2 {
+  font-size: 34px;
+  font-weight: 300;
+  margin-bottom: 38px;
+}
+
+.what-is-box p {
+  font-weight: 100;
+  margin-top: 6px;
+}
+
+.what-is-install-btn {
+  background-color: #34495e;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  border-radius: 18px;
+  padding: 8px 22px;
+  margin-top: 24px;
+  display: inline-block;
+  font-size: 18px;
 
 }
